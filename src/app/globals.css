@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+a {
+  color: #93c5fd;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: min(1100px, calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.site-header {
+  border-bottom: 1px solid #334155;
+  background: #111827;
+  position: sticky;
+  top: 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.nav nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.site-footer {
+  border-top: 1px solid #334155;
+  margin-top: 3rem;
+  padding: 1.5rem 0;
+  color: #94a3b8;
+}
+
+.hero {
+  padding: 3rem 0 2rem;
+}
+
+.hero h1 {
+  font-size: 2.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1.05rem;
+  color: #cbd5e1;
+  max-width: 750px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: #111827;
+  border: 1px solid #334155;
+  border-radius: 14px;
+  padding: 1rem;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.badge {
+  display: inline-block;
+  background: #1e293b;
+  border: 1px solid #334155;
+  color: #cbd5e1;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+}
+
+.price {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0.5rem 0;
+}
+
+.button {
+  display: inline-block;
+  background: #2563eb;
+  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.button.secondary {
+  background: #1e293b;
+  border: 1px solid #334155;
+}
+
+.section {
+  margin-top: 2rem;
+}
+
+.codebox {
+  margin-top: 1rem;
+  background: #020617;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 1rem;
+  overflow-x: auto;
+  color: #bfdbfe;
+}
+
+.brand-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+}
+
+.brand-logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border-radius: 10px;
+  background: #0b1220;
+  border: 1px solid #334155;
+  padding: 0.35rem;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.brand-title {
+  font-weight: 800;
+  font-size: 1rem;
+  color: #e2e8f0;
+}
+
+.brand-subtitle {
+  font-size: 0.8rem;
+  color: #94a3b8;
+}
+
+.main-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.main-nav a {
+  color: #cbd5e1;
+  font-weight: 600;
+}
+
+.main-nav a:hover {
+  color: #93c5fd;
+}
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
